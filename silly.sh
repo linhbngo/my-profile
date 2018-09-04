@@ -2,7 +2,7 @@
 
 echo "This is a Apache installation script" > /tmp/silly.txt
 
-yum update -y
-yum install -y httpd
-systemctl restart httpd.service
+sudo yum update -y
+sudo yum install -y httpd
+sudo systemctl restart httpd.service
 
